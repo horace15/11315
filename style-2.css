@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+/*視窗背景色設定*/
+body {
+  background: #ad76ec;/*背景顏色 書櫃 水平方向重複*/
+  
+}
+div{
+  width: 1500px;/*寬*/
+  margin: 20px ; /*離邊界的距離*/
+}
+
+header,nav,footer {
+  text-align: center; /*將文字置中對齊*/
+}
+
+/*圓圈設定*/
+h1 {
+  width: 300px;
+  margin: 53px auto;
+  padding: 30px;/*圈的高*/
+  border: 5px solid #e969ee;/*外圈厚度*/
+  color: #fff;/*字顏色*/
+  font-size: 300%;/*文字大小*/
+  text-align: center;/*文字置中*/
+  /*line-height: 1;*/
+  border-radius: 50%;/*圓ㄉ程度*/
+  text-shadow: 1px 1px 2px #000000;/*字後陰影*/
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);/*圓後陰影*/
+  background-image: linear-gradient(to bottom, #cf24fa, #f3b6df);/*圓內漸層*/
+}
+
+/*內容區塊邊框設定*/
+#contents {
+  width: 798px;
+  margin: 40px auto;
+  padding: 40px 80px;
+  background-color: #ffecfc;
+}
+
+.entryTable{
+  width: 100%;
+  margin-bottom: 30px;
+  border: 2px solid #cd2ef5;
+  border-collapse: collapse;
+}
+.entryTable th,
+.entryTable td{
+  padding: 10px 20px;
+}
+
+
+.menu li{
+    list-style-type: none;
+    width: 180px;
+    display: inline-block;
+}
+.menu a{
+    background-color: #6fbb9a;
+    color: rgb(107, 34, 50);
+    padding: 10px;
+    display: block;
+    border-radius: 10px;
+
+}
+.menu a:hover{
+    background-color: #3c9672;
+    }

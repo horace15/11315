@@ -1,0 +1,47 @@
+@charset "utf-8";
+body{
+  background-color: #fff6cc;
+  ;
+}
+header,nav,footer {
+  text-align: center; /*將文字置中對齊*/
+}
+
+.menu li{
+    list-style-type: none;
+    width: 180px ;
+    display: inline-block;
+}
+.menu a{
+    background-color: #6fbb9a;
+    color: rgb(107, 34, 50);
+    padding: 10px;
+    display: block;
+    border-radius: 10px;
+
+}
+.menu a:hover{
+    background-color: #3c9672;
+}
+/*-----------------------------*/
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.game-item {
+    text-align: center;
+    border: 1px solid #cfcfcf;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #e9e9e9;
+}
+
+.game-item img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 1px;
+}
