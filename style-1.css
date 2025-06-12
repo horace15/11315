@@ -11,6 +11,7 @@ div{
 /*連結顏色設定*/
 a {
   color: #df4839;
+  text-decoration: none;
 }
 a:hover {
   color: #ff705b; /*屬標移上去變色*/
